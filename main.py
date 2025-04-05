@@ -11,7 +11,10 @@ clock = pygame.time.Clock()
 
 balls = []
 
+balls.append(Ball(250, 0, 25))
+balls.append(Ball(350, 0, 25))
 balls.append(Ball(300, 0, 25))
+balls.append(Ball(200, 0, 25))
 
 running = True
 

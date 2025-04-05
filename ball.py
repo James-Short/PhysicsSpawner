@@ -15,6 +15,7 @@ class Ball:
         self.x += self.vx
         
         
+        
         if self.y + self.radius >= 600:
             self.y = 600 - self.radius
             
@@ -34,6 +35,7 @@ class Ball:
         
         if self.x + self.radius >= 600:
             self.x = 600 - self.radius
+            self.vx *= 0.8
             
             if abs(self.vx) < 1:
                 self.vx = 0
